@@ -17,6 +17,17 @@
     letter-spacing: 0.03em;
     color: var(--color-text);
   }
+  .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+  .list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
   /* header */
   .header {
     background-color: var(--primary-white-color);
@@ -79,13 +90,16 @@
   /* request */
   .request {
     background-color: var(--third-bg-color);
+    text-align: center;
   }
   .request-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }
@@ -101,7 +115,11 @@
     cursor: pointer;
   }
   /* quality */
+  .section-quality {
+    margin-top: 0;
+  }
   .visually-hidden {
+    margin-top: 0;
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -114,6 +132,8 @@
     margin: -1px;
   }
   .section-title {
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.6;
@@ -122,9 +142,13 @@
     color: var(--second-color-text);
   }
   .quality.list {
+    margin-top: 0;
+    margin-bottom: 94px;
     list-style: none
   }
   .quality-title {
+    margin-top: 0;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.4;
@@ -132,8 +156,14 @@
     text-transform: uppercase;
     color: var(--second-color-text);
   }
+  .quality-text {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   /* what we do */
   .examples .list {
+    margin-top: 0;
+    margin-bottom: 0;
     list-style: none;
   }
   /* team */
@@ -144,6 +174,8 @@
     list-style: none;
   }
   .team-title {
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.87;
@@ -152,6 +184,8 @@
     color: var(--second-color-text);
   }
   .team-text {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.87;
     text-align: center;
@@ -219,6 +253,8 @@
     text-decoration: none;
   }
   .portfolio-title {
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -226,6 +262,8 @@
     color: var(--second-color-text);
   }
   .portfolio-text {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;

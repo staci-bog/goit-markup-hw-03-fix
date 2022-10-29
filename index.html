@@ -8,14 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!--Header-->
     <header  class="header">
-        <a href="./index.html" class="link">
+        <div class="container">
+        <a  href="./index.html" class="link">
             <span class="logo-web" >Web</span>
             <span class="logo-studio" >Studio</span>
         </a>  
@@ -30,6 +31,7 @@
                 <li><a href="mailto:info@devstudio.com"  class="link">info@devstudio.com</a></li> 
                 <li><a href="tel:+380961111111"  class="link">+38 096 111 11 11</a></li>  
             </ul>
+        </div>
     </header>
     <!--Main body-->
     <main>
@@ -41,46 +43,55 @@
             </section>
         </div>
         <!--Quality-->
-        <section class="section quality">
+        
+        <section class="section-quality">
+            <div class="container">
                 <h2 class="visually-hidden">Our quality</h2>
                     <ul class="list">
                         <li>
                             <h3 class="quality-title">ATTENTION TO DETAILS</h3>
-                            <p>
+                            <p class="quality-text">
                                 We go into all the details and processes of your business to develop a customized solution.
                             </p>
                         </li>
                          <li>
                             <h3 class="quality-title">PUNCTUALITY</h3>
-                            <p>
+                            <p class="quality-text">
                                 With us, you can feel safe and secure. An important principle of the company: respect your time
                                  and respect the agreed deadlines.  
                             </p>
                         </li>
                         <li>
                             <h3 class="quality-title">PLANNING</h3>
-                            <p>
+                            <p class="quality-text">
                                 You will be able to observe and participate in every phase of solution development and implementation.
                             </p>
                         </li>
                         <li>
                             <h3 class="quality-title">MODERN TECHNOLOGIES</h3>
-                            <p>
+                            <p class="quality-text">
                                 We use innovative tools to solve assigned tasks. It's time to simplify work processes. 
                             </p>
                         </li>
                     </ul>
+            </div>
         </section>
         
         <!--What we do-->
+        
         <section class="section examples">
-            <h2 class="section-title">What we do</h2>
-            <img src="./images/whatwedo/img.jpg" alt="creat a code" width="370" height="294" />
-            <img src="./images/whatwedo/img1.jpg" alt="mobile version" width="370" height="294" />
-            <img src="./images/whatwedo/img2.jpg" alt="color design" width="370" height="294" />
+            <div class="container">
+                <h2 class="section-title">What we do</h2>
+                <img src="./images/whatwedo/img.jpg" alt="creat a code" width="370" height="294" />
+                <img src="./images/whatwedo/img1.jpg" alt="mobile version" width="370" height="294" />
+                <img src="./images/whatwedo/img2.jpg" alt="color design" width="370" height="294" />
+            </div>
         </section>
+        
         <!--Team-->
+        
         <section class="section team">
+            <div class="container">
                 <h2 class="section-title">Our Team</h2>
                 <ul class="list">
                     <li>
@@ -104,7 +115,9 @@
                         <p class="team-text">UI Designer</p>
                     </li>
                 </ul>
+            </div>
         </section>
+        
         
     </main>
     <!--Footer-->
