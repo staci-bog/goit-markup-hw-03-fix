@@ -208,6 +208,7 @@
   .whatwedo-item:nth-last-child(-n +3) {
     margin-bottom: 0;
   }
+  
   .examples .list {
     margin-top: 0;
     margin-bottom: 0;
@@ -263,6 +264,8 @@
   /* footer */
   .footer {
     background-color: var(--third-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   /* footer logo */
   .footer-logo-web {
@@ -283,6 +286,10 @@
   }
   /* address */
   .footer .list {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 20px;
     list-style: none;
     font-style: normal;
   }
@@ -299,14 +306,13 @@
   }
   /* portfolio */
   .portfolio .list {
-    list-style: none;
+    list-style: none;  
   }
   /* button on portfolio */
-  .btn .list {
+  .portfolio-list {
     display: flex;
-    justify-items: center;
+    justify-content: center;
   }
- 
   .button {
     padding-left: 297px;
     padding-right: 297px;
@@ -327,7 +333,7 @@
     /* shadow-middle */
     /*box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);*/
   }
-  
+    
   .button:hover,
   .button:focus {
     background-color: var(--accent-color);
