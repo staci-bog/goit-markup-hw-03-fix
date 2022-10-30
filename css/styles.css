@@ -124,15 +124,19 @@
     text-align: center;
   }
   .request-title {
+    margin: auto;
     margin-top: 0;
     margin-bottom: 30px;
+    width: 696px;
     color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    align-items: center;
     
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
   }
   .request-button {
     background-color: var(--accent-color);
@@ -298,9 +302,18 @@
     list-style: none;
   }
   /* button on portfolio */
+  .btn .list {
+    display: flex;
+    justify-items: center;
+  }
+ 
   .button {
-    /*display: inline-block;*/
+    padding-left: 297px;
+    padding-right: 297px;
+    margin-bottom: 50px;
+    margin-right: 8px;
     border-radius: 4px;
+    border: 1px solid transparent;
     padding: 6px 22px;
     background-color: var(--second-bg-color);
     font-family: inherit;
@@ -312,8 +325,9 @@
     color: var(--second-color-text);
     cursor: pointer;
     /* shadow-middle */
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    /*box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);*/
   }
+  
   .button:hover,
   .button:focus {
     background-color: var(--accent-color);
